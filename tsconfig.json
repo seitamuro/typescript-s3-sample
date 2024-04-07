@@ -1,0 +1,6 @@
+{
+  "compilerOptions": {},
+  "exclude": ["node_modules", "**/dist"],
+  "extends": "@seitamuro/configs/tsconfig.json",
+  "include": ["workspaces"]
+}

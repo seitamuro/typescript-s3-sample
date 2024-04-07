@@ -1,0 +1,29 @@
+{
+  "name": "typescript-s3-sample",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "author": "",
+  "scripts": {
+    "prepare": "husky",
+    "test": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "**/*": "prettier --write --ignore-unknown"
+  },
+  "devDependencies": {
+    "@seitamuro/configs": "github:seitamuro/configs#b6798f18214debd64cd7fec25090be9702b8844b",
+    "@tsconfig/strictest": "^2.0.5",
+    "@types/node": "^20.12.5",
+    "eslint": "8.56.0",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.2",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.4"
+  }
+}
