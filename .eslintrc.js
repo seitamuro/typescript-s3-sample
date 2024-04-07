@@ -1,5 +1,4 @@
 module.exports = {
-  rules: {
-    'no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
-  },
+  parser: '@typescript-eslint/parser',
+  rules: {},
 };

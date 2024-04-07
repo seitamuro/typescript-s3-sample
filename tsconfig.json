@@ -1,6 +1,17 @@
 {
-  "compilerOptions": {},
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "node"
+  },
   "exclude": ["node_modules", "**/dist"],
   "extends": "@seitamuro/configs/tsconfig.json",
-  "include": ["workspaces"]
+  "include": ["workspaces"],
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS",
+      "moduleResolution": "node",
+      "target": "ES5"
+    },
+    "transpileOnly": true
+  }
 }

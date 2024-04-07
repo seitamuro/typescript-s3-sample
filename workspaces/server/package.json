@@ -10,6 +10,12 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "@aws-sdk/client-s3": "^3.550.0",
+    "aws-sdk": "^2.1594.0",
+    "cross-env-file": "^1.0.0",
     "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/aws-sdk": "^2.7.0"
   }
 }
